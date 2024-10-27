@@ -33,11 +33,11 @@ Before running this script, please ensure the following:
 
 
 Parameters:
--h Help menu
--e Start extraction process. Must provide destination path
+* -h Help menu
+* -e Start extraction process. Must provide destination path
 
 Use:
-Extractor.sh -h
-Extractor.sh -e /path/to/extract/to/appName
+* Extractor.sh -h
+* Extractor.sh -e /path/to/extract/to/appName
 
 NOTE: At the point the script is ready to start the data extraction, your device will prompt you to backup your data for the target app, go ahead and hit on "Backup my data". 
