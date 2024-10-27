@@ -39,7 +39,6 @@ apkExtraction(){
 	localApkPaths=$(find "$2" -maxdepth 1 -name '*.apk')
 	echo "$localApkPaths"
 	while IFS= read -r line; do
-		echo "local path: $line"
 		apktool d "$line"
 	done <<< "$localApkPaths"
 	echo 'Decompilation complete.'
@@ -51,8 +50,6 @@ dataExtraction(){
 	abFile="$2/$1.ab"
 	tarFile="$2/$1.tar"
 	echo 'Creating backup of app data...'
-	echo "fileName: $1"
-	echo "path: $2"
 	adb backup -f "$abFile" "$1"
 	echo 'Backup complete.'
 	echo 'Initiating data extraction...'
