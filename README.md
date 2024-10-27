@@ -2,7 +2,7 @@
 
 (Oct 2024) ADVISORY: I, the creator, do not condone nor enable the malicious use of my code from here on in. All the code contained here, is STRICTLY for educational purposes. I will not be held liable for anyone that downloads this code, makes edits, and uses it for malicious intents.. That is your own doing.
 
-DroidExtract is intended to help automate the process of mobile app penetration testing. It's main functionality is to extract the Android Package Kit (.apk), decompile it, and extract the installed directories and files from an android device.
+DroidExtract is intended to help automate the process of mobile app penetration testing. It's main functionality is to extract the Android Package Kit (.apk), decompile it, and extract the installed directories and files from an android device for vulnerability assessment and static analysis.
 
 ## Requirements
 * Python3
